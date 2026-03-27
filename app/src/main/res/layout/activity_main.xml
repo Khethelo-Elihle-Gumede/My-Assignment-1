@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="21dp">
+
+    <EditText
+        android:id="@+id/editTime"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter time of day (e.g Morning)"
+        android:inputType="text"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnSuggest"
+        android:textColor="@color/purple_500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Recommendations"/>
+
+    <TextView
+        android:id="@+id/txtResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOUR RECOMMENDATIONS WILL SHOW HERE!"
+        android:padding="10dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44"
+        android:text="Reset"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
